@@ -1,0 +1,81 @@
+#personal-logo {
+    font-size: 40px;
+    color: #00ee7f;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100px;
+    padding: 0 20px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 600ms 500ms ease;
+}
+.nav__link--list {
+    display: flex;
+}
+.nav__link {
+    list-style-type: none;
+    margin: 0 24px;
+}
+.nav__link--anchor {
+    text-decoration: none;
+    font-size: 16px;
+    color: #19001b;
+    font-weight: 700;
+}
+.wire {
+    position: absolute;
+    height: 80px;
+    bottom: 10px;
+    width: 2px;
+    content: "";
+    background-color: rgb(0, 0, 0);
+}
+.fa-lightbulb {
+    position: absolute;
+    font-size: 25px;
+    transform: rotate(180deg);
+}
+.light {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 8px;
+}
+.light--off {
+    opacity: 0 !important;
+}
+.lines {
+    display: flex;
+    opacity: 1;
+    transition: opacity 500ms ease;
+    pointer-events: none;
+}
+.line {
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    width: 2px;
+    height: 8px;
+    top: 12px;
+}
+.middle {
+    top: 17px;
+    transform: translateX(-50%);
+}
+.left {
+    transform: rotate(45deg);
+    right: 8px;
+}
+.right {
+    transform: rotate(135deg);
+    left: 8px;
+}

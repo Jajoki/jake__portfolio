@@ -1,0 +1,19 @@
+.contrast-theme .title, 
+.contrast-theme .section__title, 
+.contrast-theme .section__title--sub, 
+.contrast-theme .nav__link--anchor, 
+.contrast-theme .fa-lightbulb, 
+.contrast-theme .header__text {
+    color: white;
+}
+.contrast-theme section{
+ background-color: #0e001b;
+}
+.contrast-theme .scroll__icon {
+    border-color: white;
+}
+.contrast-theme .scroll__icon__wheel,
+.contrast-theme .wire,
+.contrast-theme .link__hover-effect--black::after {
+    background-color: white;
+}

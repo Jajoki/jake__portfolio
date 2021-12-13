@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake King</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.svg">
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_wQN1dbkTBXYTdAa9tLeUv");
+        })();
+    </script>
+</head>
+
+<body onmousemove="moveShapes(event)">
+    <section id="landing__page">
+        <nav>
+            <figure>
+                <p id="personal-logo">&lt;/JJK&gt;</p>
+            </figure>
+            <ul class="nav__link--list">
+                <li class="nav__link">
+                    <a href="#projects" class="
+                        nav__link--anchor
+                        link__hover-effect
+                        link__hover-effect--black">
+                        Projects
+                    </a>
+                </li>
+                <li class="nav__link" onclick="toggleModal()">
+                    <a href="#" class="
+                        nav__link--anchor
+                        link__hover-effect
+                        link__hover-effect--black">
+                        Contact
+                    </a>
+                </li>
+                <li class="nav__link click" onclick="toggleContrast()">
+                    <a href="#" class="light nav__link--anchor">
+                        <div class="wire"></div>
+                        <i class="far fa-lightbulb"></i>
+                        <div class="lines">
+                            <div class="line left"></div>
+                            <div class="line middle"></div>
+                            <div class="line right"></div>       
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <div class="header__content">
+                <h1 class="title">Hey</h1>
+                <h1 class="title color__text">I'm Jake.</h1>
+                <p class="header__text">
+                    I'm a young 21 year old <b class="color__text">Fontend Developer</b> with
+                    a passion in creating repsonsive and user-friendly websites and apps to help 
+                    grow the internet into a bigger greater platform than it already is. While growing
+                    with its ever advancing technologies and adapting to the future.
+                </p>
+                <div class="social__list">
+                    <a class="social__link click" onclick="toggleModal()">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="###" target="_blank" class="social__link click" onclick="toggleModal()">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="./assets/JakeKingResume.pdf" target="_blank" class="social__link click">
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <a href="#projects" class="scroll">
+            <div class="scroll__icon click">
+                <div class="scroll__icon__wheel"></div>
+            </div>
+        </a>
+        <div>
+            <a href="#">
+                <button class="mail__btn click" onclick="toggleModal()">
+                    <i class="fas fa-envelope"></i>
+                </button>
+            </a>
+
+        </div>
+        <div class="icon__img">
+            <img src="./assets/circle.svg" class="shape shape--0" alt="">
+            <img src="./assets/semi circle.svg" class="shape shape--1" alt="">
+            <img src="./assets/squiggly.svg" class="shape shape--2" alt="">
+            <img src="./assets/triangle.svg" class="shape shape--3" alt="">
+            <img src="./assets/circle.svg" class="shape shape--4" alt="">
+            <img src="./assets/semi circle.svg" class="shape shape--5" alt="">
+            <img src="./assets/squiggly.svg" class="shape shape--6" alt="">
+            <img src="./assets/triangle.svg" class="shape shape--7" alt="">
+            <img src="./assets/circle.svg" class="shape shape--8" alt="">
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">Here are some of my <span class="color__text">projects</span></h1>
+                <ul class="project__list">
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg">
+
+                                <div class="project__description">
+                                    <h3 class="project__description--title">
+                                        car sales project
+                                    </h3>
+                                    <h4 class="project__description--sub-title">
+                                        HTML, CSS, JSS
+                                    </h4>
+                                    <p class="project__description--text">
+                                        elit et venenatis porttitor. Aenean at lectus metus. Vivamus eleifend tempus
+                                        nibh, et elementum
+                                        purus vehicula ac. Integer dui ligula, elementum vel laoreet vel, porttitor ut
+                                        mauris. Duis
+                                        malesuada interdum est sit amet ultrices. Suspendisse potenti.
+                                    </p>
+                                    <div class="project__description--links">
+                                        <a href="" class="project__description--link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg">
+
+                                <div class="project__description">
+                                    <h3 class="project__description--title">
+                                        car sales project
+                                    </h3>
+                                    <h4 class="project__description--sub-title">
+                                        HTML, CSS, JSS
+                                    </h4>
+                                    <p class="project__description--text">
+                                        elit et venenatis porttitor. Aenean at lectus metus. Vivamus eleifend tempus
+                                        nibh, et elementum
+                                        purus vehicula ac. Integer dui ligula, elementum vel laoreet vel, porttitor ut
+                                        mauris. Duis
+                                        malesuada interdum est sit amet ultrices. Suspendisse potenti.
+                                    </p>
+                                    <div class="project__description--links">
+                                        <a href="" class="project__description--link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                            <div class="project__wrapper--bg">
+
+                                <div class="project__description">
+                                    <h3 class="project__description--title">
+                                        car sales project
+                                    </h3>
+                                    <h4 class="project__description--sub-title">
+                                        HTML, CSS, JSS
+                                    </h4>
+                                    <p class="project__description--text">
+                                        elit et venenatis porttitor. Aenean at lectus metus. Vivamus eleifend tempus
+                                        nibh, et elementum
+                                        purus vehicula ac. Integer dui ligula, elementum vel laoreet vel, porttitor ut
+                                        mauris. Duis
+                                        malesuada interdum est sit amet ultrices. Suspendisse potenti.
+                                    </p>
+                                    <div class="project__description--links">
+                                        <a href="" class="project__description--link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="modal__half modal__about">
+                <h3 class="modal__title">About me</h3>
+                <h4 class="modal__title-sub modal--light">Technical Skills
+                </h4>
+                <p class="modal__text">
+                    A <b class="color__text">motivated developer</b> with a love for learning new things and
+                    developing my own skills to better myself and grow, I strive
+                    to achieve and get the task done. Below lists the  
+                    technical skills i can utilise 
+                    to get this done:
+                </p>
+                <div class="modal__skills">
+                    <figure class="modal__skill">
+                        <img src="./assets/htmlLogo.png" alt=""
+                            class="modal__skill--img">
+                        <span class="skill__name">HTML</span>
+                    </figure>
+                    <figure class="modal__skill">
+                        <img src="./assets/cssLogo.png" alt=""
+                            class="modal__skill--img">
+                        <span class="skill__name">CSS</span>
+                    </figure>
+                    <figure class="modal__skill">
+                        <img src="./assets/javascriptLogo.png" alt=""
+                            class="modal__skill--img">
+                        <span class="skill__name">JS</span>
+                    </figure>
+                    <figure class="modal__skill">
+                        <img src="./assets/reactLogo.png" alt=""
+                            class="modal__skill--img">
+                        <span class="skill__name">REACT</span>
+                    </figure>
+                    <figure class="modal__skill">
+                        <img src="./assets/sqlLogo.png" alt=""
+                            class="modal__skill--img">
+                        <span class="skill__name">SQL</span>
+                    </figure>
+                    <figure class="modal__skill">
+                        <img src="./assets/nodeJsLogo.svg" alt=""
+                            class="modal__skill--img">
+                        <span class="skill__name">Node.js</span>
+                    </figure>
+                    <!-- <figure class="modal__skill">
+                        <img src="./assets/phpLogo.png" alt=""
+                            class="modal__skill--img">
+                        <span class="skill__name">PHP</span>
+                    </figure> -->
+                    <figure class="modal__skill">
+                        <img src="./assets/sassLogo.png" alt=""
+                            class="modal__skill--img">
+                        <span class="skill__name">SASS/SCSS</span>
+                    </figure>
+                    <figure class="modal__skill">
+                        <img src="./assets/git.png" alt=""
+                            class="modal__skill--img">
+                        <span class="skill__name">GIT</span>
+                    </figure>
+                </div>
+            </div>
+            <div class="modal__half modal__contact">
+                <i class="fas fa-times modal__close click" onclick="toggleModal()"></i>
+                <h3 class="modal__title modal__title--dark">
+                    Lets have a chat!!
+                </h3>
+                <h4 class="modal__title-sub modal__title--dark">
+                    I'm open to new opputunities.
+                </h4>
+                <form id="contact__form" onsubmit="contact(event)">
+                    <div class="form__item">
+                        <label class="fomr__item--label">NAME</label>
+                        <input type="text" name="user_name" class="input" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="fomr__item--label">EMAIL</label>
+                        <input type="email" name="user_email" class="input" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="fomr__item--label">MESSAGE</label>
+                        <textarea type="text" name="user_message" class="input" required></textarea>
+                    </div>
+                    <button id="contact__submit" class="form__submit">Send it my way!</button>
+                </form>
+                <div class="modal__overlay modal__overlay--loading">
+                    <i class="fas fa-spinner"></i>
+                </div>
+                <div class="modal__overlay modal__overlay--success">
+                    thanks for sending me a message!
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer__row">
+
+                <figure>
+                    <a href="#" class="footer__logo color__text">
+                        &lt; /Go To Top &gt;
+                    </a>
+                </figure>
+                <div class="footer__social--list">
+                    <a href="./assets/JakeKingResume.pdf" class="
+                        footer__social--link
+                        link__hover-effect
+                        link__hover-effect--white
+                        ">
+                        Resume
+                    </a>
+                    <a href="#" onclick="toggleModal()" class="
+                        footer__social--link
+                        link__hover-effect
+                        link__hover-effect--white
+                        ">
+                        Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
